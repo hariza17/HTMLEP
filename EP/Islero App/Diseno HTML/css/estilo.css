@@ -261,9 +261,10 @@ body {
    float: left;
    display: block;
    padding: 4px 20px;
-   background-color: #68a3c2;
+   background-color: #0099b9;
    color: #ffffff;
    font: 500 16px 'Roboto';
+   border-top-left-radius: 4px;
 }
 
 .cont-etiqueta-cara {
