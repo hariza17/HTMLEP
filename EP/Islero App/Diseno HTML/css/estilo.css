@@ -4,7 +4,7 @@
    font-family: 'roboto';
 }
 
-body{
+body {
    overflow-x: hidden;
 }
 
@@ -204,7 +204,6 @@ body {
 
 .pushmenu {
    /*this is the nav*/
-   
 }
 
 .pushmenu-left {
@@ -216,27 +215,133 @@ body {
 }
 
 .pushmenu-left.pushmenu-open {
-  left: 0;
+   left: 0;
 }
 
 .pushmenu-push {
-  
-  position: relative;
-  left: 0;
+   position: relative;
+   left: 0;
 }
 
 .pushmenu-push-toright {
-  left: 240px;
+   left: 240px;
 }
+
 
 /*Transition*/
-.pushmenu, .pushmenu-push {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;  
-}
-section.content {
-   font-family: Arial, Helvetica, sans-serif;
-   padding: 10px 20px;
+
+.pushmenu,
+.pushmenu-push {
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   transition: all 0.3s ease;
 }
 
+.msj-titulo-venta {
+   color: #0099b9;
+   font: 300 40px 'Roboto';
+   text-align: center;
+}
+
+.titulo-azul {
+   color: #0099b9;
+   font: 500 40px Roboto;
+}
+
+.contenedor-surtidores {}
+
+.item-especial-surtidor {
+   background-color: #fff;
+   border-radius: 4px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.etiqueta-surti {
+   float: left;
+   display: block;
+   padding: 4px 20px;
+   background-color: #68a3c2;
+   color: #ffffff;
+   font: 500 16px 'Roboto';
+}
+
+.cont-etiqueta-cara {
+   display: block;
+   margin-left: 20px;
+   float: left;
+   margin-top: 30px;
+}
+
+.etiq-cara {
+   display: block;
+   color: #aeaaaa;
+   font: 500 80px 'Roboto';
+   float: left;
+}
+
+.cont-mangueras {
+   float: left;
+   display: block;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+
+.item-especial-manguera {
+   bottom: 533px;
+   background: #ffffff;
+   padding: 10px;
+   border-radius: 4px;
+   border-bottom: 3px solid #f7f7f7;
+   margin-bottom: 20px;
+   float: left;
+   margin-left: 40px;
+}
+
+.item-especial-manguera h4 {
+   color: #707070;
+   font: 500 20px 'Roboto';
+}
+
+.item-especial-manguera h4 >i {
+   margin-right: 10px;
+}
+
+.etiq-tipo-combustible {
+   color: #9f9f9f;
+   font: 500 20px 'Roboto';
+   display: block;
+   margin-top: 10px;
+}
+
+.etq-contador {
+   color: #9f9f9f;
+   font: 500 24px 'Roboto';
+}
+.btn {
+   border: 0 none;
+   background: #0099b9;
+   color: #fff;
+   padding: 7px 15px;
+   border-radius: 4px;
+   color: #fff;
+   height: 52px;
+   cursor: pointer;
+   width: 52px;
+   position: fixed;
+   font: 300 20px 'Roboto';
+   z-index: 50;
+   right: 40px;
+   bottom: 30px;
+   outline: 0;
+   box-shadow: 3px 5px 4px 0.00px rgba(0, 0, 0, 0.23);
+   border-radius: 50%;
+}
+
+.btn:hover{
+   background-color: #00607f;
+}
+
+.btn-imprimir>i {
+   font-size: 23px;
+}
