@@ -7,4 +7,9 @@ $(document).ready(function () {
       $('.pushmenu-push').toggleClass('pushmenu-push-toright');
       $menuLeft.toggleClass('pushmenu-open');
    });
+    
+    
+   $("#spinner").spinner('changing', function(e, newVal, oldVal){
+    console.log(newVal);
+  });
 });

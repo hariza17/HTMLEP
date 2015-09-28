@@ -634,3 +634,48 @@ body {
 .cont-btn-config {
     margin-top: 20px;
 }
+
+.item-producto {
+    background: #ffffff;
+    box-shadow: 0px 1px 13px 0.00px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    border-radius: 4px;
+    padding: 10px 17px;
+}
+
+.item-producto .selected{
+    box-shadow: 0px 1px 13px 0.00px rgba(0, 185, 4, 0.3);
+
+}
+
+.seccion-canastilla {
+    margin-top: 20px;
+}
+
+.titulo-product {
+    color: #0099b9;
+    font: 500 20px Roboto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label-product {
+    color: #494949;
+    font: 300 16px Roboto;
+    display: block;
+}
+
+.precio-product {
+    color: #494949;
+    font: 400 16px Roboto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.cont-config-venta {
+    margin-top: 10px;
+}
+
+.cantidad-producto {
+    
+}
