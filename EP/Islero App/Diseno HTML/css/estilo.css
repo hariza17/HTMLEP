@@ -1,348 +1,636 @@
 * {
-   margin: 0;
-   padding: 0;
-   font-family: 'roboto';
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
 }
 
 body {
-   overflow-x: hidden;
+    background-color: rgb(241, 242, 247);
 }
 
 body {
-   background-color: #f1f2f7;
+    overflow-x: hidden;
 }
 
 .barra {
-   height: 66px;
-   width: 100%;
-   box-shadow: 2px 3px 4px 0.00px rgba(0, 0, 0, 0.06);
-   background-color: #ffffff;
-   position: fixed;
-   z-index: 10;
+    height: 66px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.0588235) 2px 3px 4px 0px;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
 }
 
 .barra-titulo {
-   background-color: #0099b9;
-   height: 66px;
-   width: 260px;
-   float: left;
+    height: 66px;
+    width: 260px;
+    float: left;
+    background-color: rgb(0, 153, 185);
 }
 
 .menu-left {
-   width: 260px;
-   background-color: #242f35;
-   float: left;
-   top: 66px;
-   position: fixed;
-   height: 100%;
+    width: 260px;
+    float: left;
+    top: 66px;
+    position: fixed;
+    height: 100%;
+    background-color: rgb(36, 47, 53);
 }
 
-.menu-left> ul> li> a {
-   color: #939fa7;
-   text-decoration: none;
-   cursor: pointer;
-   display: block;
-   padding: 20px;
+.menu-left > ul > li > a {
+    color: rgb(147, 159, 167);
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding: 20px;
 }
 
-.menu-left> ul> li> a:hover {
-   background-color: #151d22;
+.menu-left > ul > li > a:hover {
+    background-color: rgb(21, 29, 34);
 }
 
-.menu-left> ul> li> .activo {
-   background-color: #151d22;
+.menu-left > ul > li > .activo {
+    background-color: rgb(21, 29, 34);
 }
 
-.menu-left> ul> li> a> label {
-   color: #939fa7;
+.menu-left > ul > li > a > label {
+    color: rgb(147, 159, 167);
+    cursor: pointer;
 }
 
-.menu-left> ul> li> a> i {
-   color: #939fa7;
-   margin-right: 13px;
+.menu-left > ul > li > a > i {
+    color: rgb(147, 159, 167);
+    margin-right: 13px;
 }
 
 .menu-left ul li {
-   height: 50px;
-   display: block;
-   list-style: none;
-   cursor: pointer;
+    height: 50px;
+    display: block;
+    list-style: none;
+    cursor: pointer;
 }
 
 .btn-menu-left {
-   background-color: #f3f3f3;
-   border-radius: 50%;
-   border: 5px solid rgba(255, 255, 255, 0.5);
-   cursor: pointer;
-   height: 36px;
-   width: 36px;
-   position: relative;
-   margin-top: -35px;
-   margin-left: 237px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.498039);
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+    position: relative;
+    margin-top: -35px;
+    margin-left: 237px;
+    background-color: rgb(243, 243, 243);
 }
 
-.btn-menu-left >i {
-   color: #242f35;
-   text-align: center;
-   display: block;
-   float: left;
-   position: relative;
-   top: 8px;
-   left: -7px;
+.btn-menu-left > i {
+    color: rgb(36, 47, 53);
+    text-align: center;
+    display: block;
+    float: left;
+    position: relative;
+    top: 8px;
+    left: -7px;
 }
 
 .cont-barra {
-   margin-left: 260px;
-   padding-top: 20px;
+    margin-left: 260px;
+    padding-top: 20px;
 }
 
 .usuario {
-   text-align: center;
-   color: #b4b1b1;
-   font: 300 20px 'Roboto';
-   display: block;
+    text-align: center;
+    color: rgb(180, 177, 177);
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    display: block;
 }
 
 .cont-principal {
-   background-color: #f1f2f7;
-   top: 66px;
-   position: relative;
-   overflow: hidden;
+    top: 66px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(241, 242, 247);
 }
 
 .cont-primario {
-   padding: 20px 40px;
-   margin-left: 0px;
+    padding: 20px 40px;
+    margin-left: 0px;
 }
 
 .cabecera-titulo {
-   background-color: #ffffff;
-   border-radius: 4px;
-   border-bottom: 3px solid #e9eaee;
-   padding: 10px 20px;
+    border-radius: 4px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 234, 238);
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .titulo1 {
-   color: #0099b9;
-   font: 500 20px 'Roboto';
+    color: rgb(0, 153, 185);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
 }
 
 .titulo2 {
-   color: #0099b9;
-   font: 300 20px 'Roboto';
-   margin-left: 20px;
+    color: rgb(0, 153, 185);
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    margin-left: 20px;
 }
 
 .cont-surtidores {
-   margin-top: 20px;
+    margin-top: 20px;
 }
 
 .item-surtidor {
-   background-color: #ffffff;
-   border-radius: 4px;
-   width: 214px;
-   padding-top: 5px;
-   float: left;
-   margin: 46px;
-   margin-right: 0;
-   margin-top: 0;
-   padding-bottom: 35px;
-   border-bottom: 3px solid #e9eaee;
+    border-radius: 4px;
+    width: 214px;
+    padding-top: 5px;
+    float: left;
+    margin: 0px 0px 46px 46px;
+    padding-bottom: 35px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 234, 238);
+    background-color: rgb(255, 255, 255);
 }
 
 .limp {
-   clear: both;
-   line-height: 17;
+    clear: both;
+    line-height: 17;
 }
 
 .icon-surti {
-   border-radius: 50%;
-   height: 40px;
-   width: 40px;
-   border: 2px solid #e8e7e7;
-   float: left;
-   position: relative;
-   left: -23px;
-   top: 10px;
-   background-color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(232, 231, 231);
+    float: left;
+    position: relative;
+    left: -23px;
+    top: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
-.icon-surti>i {
-   font-size: 20px;
-   color: #0099b9;
-   text-align: center;
-   margin-top: 8px;
-   display: block;
+.icon-surti > i {
+    font-size: 20px;
+    color: rgb(0, 153, 185);
+    text-align: center;
+    margin-top: 8px;
+    display: block;
 }
 
 .titulo-surti {
-   color: #aaaaaa;
-   font: 500 20px 'Roboto';
-   padding-bottom: 5px;
-   border-bottom: 1px solid #e9e9e9;
-   display: block;
+    color: rgb(170, 170, 170);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 233, 233);
+    display: block;
 }
 
 .cuerpo-surti {
-   margin-top: 20px;
+    margin-top: 20px;
 }
 
 .titulo-cara {
-   float: left;
-   background: #f7f7f7;
-   padding: 23px 25px;
-   color: #c4c4c4;
-   font: 500 40px 'Roboto';
-   border-radius: 4px;
-   cursor: pointer;
-   margin-left: 20px;
+    float: left;
+    padding: 23px 25px;
+    color: rgb(196, 196, 196);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 40px;
+    line-height: normal;
+    font-family: Roboto;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    background: rgb(247, 247, 247);
 }
 
 .titulo-cara:hover {
-   background: #e8e7e7;
+    background: rgb(232, 231, 231);
 }
 
-.pushmenu {
-   /*this is the nav*/
-}
+.pushmenu {}
 
 .pushmenu-left {
-   left: -260px;
+    left: -260px;
 }
 
 .pushmenu-left.pushmenu-open {
-   left: 0;
+    left: 0px;
 }
 
 .pushmenu-left.pushmenu-open {
-   left: 0;
+    left: 0px;
 }
 
 .pushmenu-push {
-   position: relative;
-   left: 0;
+    position: relative;
+    left: 0px;
 }
 
 .pushmenu-push-toright {
-   left: 240px;
+    left: 240px;
 }
-
-
-/*Transition*/
 
 .pushmenu,
 .pushmenu-push {
-   -webkit-transition: all 0.3s ease;
-   -moz-transition: all 0.3s ease;
-   transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
 }
 
 .msj-titulo-venta {
-   color: #0099b9;
-   font: 300 40px 'Roboto';
-   text-align: center;
+    color: rgb(0, 153, 185);
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 40px;
+    line-height: normal;
+    font-family: Roboto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.msj-titulo-venta2 {
+    color: rgb(0, 153, 185);
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 40px;
+    line-height: normal;
+    font-family: Roboto;
+    margin-top: 20px;
 }
 
 .titulo-azul {
-   color: #0099b9;
-   font: 500 40px Roboto;
+    color: rgb(0, 153, 185);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 40px;
+    line-height: normal;
+    font-family: Roboto;
 }
 
 .contenedor-surtidores {}
 
 .item-especial-surtidor {
-   background-color: #fff;
-   border-radius: 4px;
-   margin-top: 20px;
-   margin-bottom: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 .etiqueta-surti {
-   float: left;
-   display: block;
-   padding: 4px 20px;
-   background-color: #0099b9;
-   color: #ffffff;
-   font: 500 16px 'Roboto';
-   border-top-left-radius: 4px;
+    float: left;
+    display: block;
+    padding: 4px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: normal;
+    font-family: Roboto;
+    border-top-left-radius: 4px;
+    background-color: rgb(0, 153, 185);
 }
 
 .cont-etiqueta-cara {
-   display: block;
-   margin-left: 20px;
-   float: left;
-   margin-top: 30px;
+    display: block;
+    margin-left: 20px;
+    float: left;
+    margin-top: 30px;
 }
 
 .etiq-cara {
-   display: block;
-   color: #aeaaaa;
-   font: 500 80px 'Roboto';
-   float: left;
+    display: block;
+    color: rgb(174, 170, 170);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 80px;
+    line-height: normal;
+    font-family: Roboto;
+    float: left;
 }
 
 .cont-mangueras {
-   float: left;
-   display: block;
-   margin-left: 30px;
-   margin-top: 20px;
+    float: left;
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .item-especial-manguera {
-   bottom: 533px;
-   background: #ffffff;
-   padding: 10px;
-   border-radius: 4px;
-   border-bottom: 3px solid #f7f7f7;
-   margin-bottom: 20px;
-   float: left;
-   margin-left: 40px;
+    bottom: 533px;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(247, 247, 247);
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 40px;
+    background: rgb(255, 255, 255);
 }
 
 .item-especial-manguera h4 {
-   color: #707070;
-   font: 500 20px 'Roboto';
+    color: rgb(112, 112, 112);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
 }
 
-.item-especial-manguera h4 >i {
-   margin-right: 10px;
+.item-especial-manguera h4 > i {
+    margin-right: 10px;
 }
 
 .etiq-tipo-combustible {
-   color: #9f9f9f;
-   font: 500 20px 'Roboto';
-   display: block;
-   margin-top: 10px;
+    color: rgb(159, 159, 159);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    display: block;
+    margin-top: 10px;
 }
 
 .etq-contador {
-   color: #9f9f9f;
-   font: 500 24px 'Roboto';
+    color: rgb(159, 159, 159);
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 24px;
+    line-height: normal;
+    font-family: Roboto;
 }
+
 .btn {
-   border: 0 none;
-   background: #0099b9;
-   color: #fff;
-   padding: 7px 15px;
-   border-radius: 4px;
-   color: #fff;
-   height: 52px;
-   cursor: pointer;
-   width: 52px;
-   position: fixed;
-   font: 300 20px 'Roboto';
-   z-index: 50;
-   right: 40px;
-   bottom: 30px;
-   outline: 0;
-   box-shadow: 3px 5px 4px 0.00px rgba(0, 0, 0, 0.23);
-   border-radius: 50%;
+    border: 0px none;
+    padding: 7px 15px;
+    color: rgb(255, 255, 255);
+    height: 52px;
+    cursor: pointer;
+    width: 52px;
+    position: fixed;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    z-index: 50;
+    right: 40px;
+    bottom: 30px;
+    outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.227451) 3px 5px 4px 0px;
+    border-radius: 50%;
+    background: rgb(0, 153, 185);
 }
 
-.btn:hover{
-   background-color: #00607f;
+.btn:hover {
+    background-color: rgb(0, 96, 127);
 }
 
-.btn-imprimir>i {
-   font-size: 23px;
+.btn-imprimir > i {
+    font-size: 23px;
+}
+
+.fodo-banco {
+    border-radius: 4px;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.form-factura {
+    margin: 10px 20px;
+}
+
+.label-input {
+    color: rgb(152, 152, 152);
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 17px;
+    line-height: normal;
+    font-family: Roboto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.mi-input {
+    display: block;
+    color: rgb(152, 152, 152);
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    outline: 0px;
+    border-radius: 4px;
+    border: 1px solid rgb(152, 152, 152);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.mi-select {
+    display: block;
+    color: rgb(152, 152, 152);
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+    outline: 0px;
+    border-radius: 4px;
+    border: 1px solid rgb(152, 152, 152);
+    margin-bottom: 20px;
+    float: left;
+    width: 90%;
+}
+
+.mi-input:focus {
+    border: 1px solid rgb(0, 153, 185);
+}
+
+.btn-add-pago-op {
+    border: none;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    outline: none;
+    float: right;
+    background: rgb(0, 153, 185);
+}
+
+.btn-add-pago-op:hover {
+    background: rgb(0, 96, 127);
+}
+
+.btn-cancel {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    background: rgb(248, 58, 58);
+}
+
+.btn-cancel:hover {
+    background: rgb(255, 68, 68);
+}
+
+.btn-cancel:focus {
+    background: rgb(255, 68, 68);
+}
+
+.btn-ok {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    background: rgb(0, 153, 185);
+}
+
+.btn-ok:hover {
+    background: rgb(0, 153, 185);
+}
+
+.btn-ok:focus {
+    background: rgb(0, 153, 185);
+}
+
+.label-resatado {
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    color: rgb(152, 152, 152);
+}
+
+.label-info {
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    color: rgb(152, 152, 152);
+}
+
+.txt-normal {
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 17px;
+    line-height: normal;
+    font-family: Roboto;
+    color: rgb(152, 152, 152);
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.btn-abrir {}
+
+.cont-info {}
+
+.cont-labels-info {
+    margin-top: 15px;
+}
+
+.label-resatado-azul {
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: Roboto;
+    color: rgb(0, 153, 185);
+}
+
+.margen-left {
+    padding-left: 40px !important;
+}
+.cont-btn-config {
+    margin-top: 20px;
 }
