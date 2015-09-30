@@ -641,9 +641,12 @@ body {
     width: 200px;
     border-radius: 4px;
     padding: 10px 17px;
+    margin: 10px;
+    float: left;
 }
 
-.item-producto .selected{
+
+.item-producto + .selected{
     box-shadow: 0px 1px 13px 0.00px rgba(0, 185, 4, 0.3);
 
 }
@@ -679,3 +682,108 @@ body {
 .cantidad-producto {
     
 }
+
+.cont-cantidad-contril {
+    float: right;
+}
+
+.input-cantidad-producto {
+    background-color: #f1f2f7;
+    float: left;
+    border:none;
+    padding: 7px 10px;
+    color: #494949;
+    font: 500 17px Roboto;
+    box-sizing: border-box;
+    width: 130px;
+    outline: none;
+}
+
+.input-cantidad-producto:focus{
+    background: rgba(0, 0, 0, 0.13);
+  
+
+}
+
+.control-cant {
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #494949;
+    font: 400 22px Roboto;
+    color: #fff;
+    background: #0099b9;
+    margin-bottom: 5px;
+}
+
+.btn-vender-canastilla {
+    text-align: center;
+    display: block;
+    outline: none;
+    background: #00607f;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50%;
+    padding: 7px 2px;
+    text-align: center;
+    font: 500 15px Roboto;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.btn-vender-canastilla:hover {
+background-color:#2489b0;
+}
+
+.cont-control-ventas {
+    float: right;
+}
+
+.btn-carrito {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+    background: #0099b9;
+    text-decoration: none;
+        border: 3px solid rgba(0,152,185,0.3);
+
+}
+.btn-carrito>i {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+
+
+
+
+.input-buscar {
+    border: none;
+    float: left;
+    margin-right: 30px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    border-radius: 4px;
+    font: 300 17px Roboto;
+    color: #494949;
+    font-style: italic;    
+    outline: none;
+}
+
+.input-buscar:focus{
+
+    background: #f1f2f7;
+}
+
+
