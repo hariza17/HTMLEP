@@ -24,8 +24,12 @@ $(document).ready(function () {
     //Agregar productos al carrito
 
     //MODAL FUNCIONES
-    $box=$('.box');
-    $btn_cierre=$('.btn-cierre');
+    $box = $('.box');
+    $modal = $('.ep-modal');
+    $btn_cierre = $('.btn-cierre');
+
+
+
     $btn_cierre.click(function () {
         $('.ep-modal').show();
         $('.box').fadeIn();
