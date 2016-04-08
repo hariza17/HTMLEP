@@ -1016,3 +1016,25 @@ body {
    margin: 20px auto;
    width: 80%;
 }
+
+.btn_volver {
+   float: right;
+   margin-right: 0px;
+   position: relative;
+   top:-44px;
+   display: block;
+   background: rgba(0, 153, 185, 0.5);
+   padding: 20px 10px;
+   color: #fff;
+   height: 66px;
+   box-sizing: border-box;
+   width: 200px;
+   font-size: 20px;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+}
+
+.btn_volver:hover{
+   background: #0099B9;
+}
